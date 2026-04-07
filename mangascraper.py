@@ -177,7 +177,7 @@ for id in range(START_RANGE,END_RANGE+1):
         continue
 
 
-    nhentai_url=f"https://doujin-api.onrender.com/manga_id={id}"
+    nhentai_url=f"https://doujin-api.vercel.app/manga_id={id}"
 
     HEADERS = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
